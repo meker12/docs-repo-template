@@ -58,6 +58,9 @@ source_suffix = '.rst'
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
 
+# Exclude content from elastic search index
+deconst_default_unsearchable = True
+
 # The master toctree document.
 master_doc = 'index'
 
